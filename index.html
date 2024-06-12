@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="normalize.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- Optional JavaScript -->
+  <!-- Popper.js first, then Bootstrap JS -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> -->
+
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>PreFABY</title>
+</head>
+
+<body>
+  <!-- Your content goes here -->
+
+  <div id="content-wrapper">
+    <div id="example-wrapper">
+      <div class="scrollContent">
+        <style type="text/css">
+          @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&display=swap');
+
+          body {
+            background-color: black;
+            color: white;
+            font-weight: 400;
+            font-style: normal;
+          }
+
+          h2 {
+            font-family: "Tiny5", sans-serif;
+            font-size: 3rem !important;
+            font-weight: 700;
+            margin-bottom: 1rem;
+          }
+
+          p {
+            margin-top: 2rem;
+            font-size: 1rem !important;
+          }
+
+          .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+          }
+
+          .logo {
+            opacity: 0.1;
+            transition-duration: .25s;
+            width: 75vw;
+            margin: 0 auto;
+          }
+
+          .logo.visible {
+            opacity: .5;
+          }
+
+          .panel {
+            height: 100vh;
+            width: 100%;
+            background-color: black !important;
+          }
+
+          .panel.green {
+            margin-bottom: 400px
+          }
+
+          .panel.header {
+            background-image: url('./img/table_light.jpg') !important;
+            background-image: url('./img/table_dark.jpg') !important;
+            background-size: cover;
+            transition-duration: .25s;
+          }
+
+          .panel.header.lightup {
+            background-image: url('./img/table_light.jpg') !important;
+            background-size: cover;
+          }
+
+          .panel.trailer {
+            background-image: url('./img/trailerbg.png') !important;
+            background-size: contain;
+            position: relative;
+          }
+
+          .panel.trailer .video {
+            position: absolute;
+            top: 30%;
+            left: 54%;
+            width: 41%;
+            perspective: 623px;
+            transform-style: preserve-3d;
+            transform: rotateX(-7deg) rotateY(31deg);
+          }
+
+          .wrap-original-transform {}
+
+          .original-transform {}
+
+          .panel.body {
+            background-image: url('./img/shadow_10.png') !important;
+            background-size: contain;
+            transition-duration: .5s;
+          }
+
+          .panel.body.b02 {
+            background-image: url('./img/shadow_12.jpeg') !important;
+          }
+
+          .panel.body.b01 {
+            background-image: url('./img/shadow_11.jpeg') !important;
+          }
+
+          .panel.body.b1 {
+            background-image: url('./img/shadow_10.png') !important;
+          }
+
+          .panel.body.b2 {
+            background-image: url('./img/shadow_09.png') !important;
+          }
+
+          .panel.body.b3 {
+            background-image: url('./img/shadow_08.png') !important;
+          }
+
+          .panel.body.b4 {
+            background-image: url('./img/shadow_07.png') !important;
+          }
+
+          .panel.body.b5 {
+            background-image: url('./img/shadow_06.png') !important;
+          }
+
+          .panel.body.b6 {
+            background-image: url('./img/shadow_05.png') !important;
+          }
+
+          .panel.body.b7 {
+            background-image: url('./img/shadow_04.png') !important;
+          }
+
+          .panel.body.b8 {
+            background-image: url('./img/shadow_03.png') !important;
+          }
+
+          .panel.body.b9 {
+            background-image: url('./img/shadow_02.png') !important;
+          }
+
+          .panel.footer {
+            background-image: none !important;
+            background-color: black;
+            color: white;
+            background-size: cover;
+          }
+
+          body::after {
+            position: absolute;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            z-index: -1;
+            content: url('./img/shadow_02.png') url('./img/shadow_03.png') url('./img/shadow_04.png') url('./img/shadow_05.png') url('./img/shadow_06.png') url('./img/shadow_07.png') url('./img/shadow_08.png') url('./img/shadow_09.png') url('./img/shadow_10.png');
+
+          }
+        </style>
+        <section class="panel header">
+          <div class="wrapper">
+
+            <img src="./img/prefaby_logo.png" alt="table" class="logo" />
+          </div>
+        </section>
+        <section class="panel body">
+          <div class="container h-100">
+            <div class="row justify-content-center h-100">
+              <div class="col-md-8 align-self-center">
+                <div>
+                  <h2>PRE-APOKALYPTICKÁ BETONOVÁ IDYLA ODEHRÁVAJÍCÍ SE NA PŮDORYSU PŘÍBĚHŮ TŘÍ BEZEJMENNÝCH SOUSEDŮ.
+                  </h2>
+                </div>
+                <div>
+                  <p>Autorská výtvarně zvuková inscenace, která se odehrává na umakartovém stole a volně variuje
+                    motivy
+                    každodenního života v paneláku – symbolu splněného snu o moderním bydlení v zemích bývalého
+                    východního
+                    bloku.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="panel trailer">
+          <div class="container h-100">
+            <div class="row justify-content-start h-100">
+              <div class="col-md-6 align-self-center">
+                <div>
+                  <video class="video">
+                    <source src="./img/trailer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div>
+                  <h2>PRE-APOKALYPTICKÁ BETONOVÁ IDYLA ODEHRÁVAJÍCÍ SE NA PŮDORYSU PŘÍBĚHŮ TŘÍ BEZEJMENNÝCH SOUSEDŮ.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="panel footer">
+          <div class="container">
+            <div class="row justify-content-center  gy-5">
+              <div class="col-md-8">
+                <h2>Supported by</h2>
+                <p>
+                  <img src="./img/logo-damu.png" width="150" class="p-3" />
+                  <img src="./img/dramalabel.jpg" width="150" class="p-3" />
+                  <img src="./img/nova-sit-bw.jpg" width="150" class="p-3" />
+                </p>
+              </div>
+              <div class="col-md-8">
+                <h2>Authors</h2>
+                <p>
+                <ul class="list-unstyled">
+                  <li>Concept, scene, technical realisation: Dominik Migač</li>
+                  <li>Drama: Jakub Maksymov</li>
+                  <li>Sound: Studio Mr. Wombat</li>
+                  <li>Creative supervision and masks: Tereza Černá</li>
+                  <li>Costumes: Jana Ševčík</li>
+                  <li>Performers: Dominik Migač nebo Jakub Maksymov</li>
+                  <li>Voices: Štěpán Lustyk, Eva Hacurová, Milan Vedral, Jakub Vaverka</li>
+                </ul>
+                </p>
+              </div>
+              <div class="col-md-8">
+                <h2>Contact Us</h2>
+                <ul class="list-unstyled">
+                  <li>Email: info@example.com</li>
+                  <li>Phone: 123-456-7890</li>
+                  <li>Address: 123 Main St, City, State, ZIP</li>
+                </ul>
+              </div>
+            </div>
+        </section>
+        <script>
+          // init
+          var controller = new ScrollMagic.Controller({
+            globalSceneOptions: {
+              triggerHook: 'onLeave',
+              // duration: "100%" // this works just fine with duration 0 as well
+              // However with large numbers (>20) of pinned sections display errors can occur so every section should be unpinned once it's covered by the next section.
+              // Normally 100% would work for this, but here 200% is used, as Panel 3 is shown for more than 100% of scrollheight due to the pause.
+            }
+          });
+
+          // get all slides
+          // var slides = document.querySelectorAll("section.panel");
+
+          const slideHeader = document.querySelector('section.header');
+          const logo = document.querySelector('section .logo');
+          new ScrollMagic.Scene({
+            triggerElement: slideHeader,
+            duration: "100"
+          })
+            .setPin(slideHeader, { pushFollowers: true })
+            .on("update", function (e) {
+              // console.log("Scene entered.", e);
+              if (e.scrollPos > 10) {
+                // console.log("Scene event.");
+                slideHeader.classList.add('lightup');
+                logo.classList.add('visible');
+              } else {
+                slideHeader.classList.remove('lightup');
+                logo.classList.remove('visible');
+              }
+            })
+            // .addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
+
+          const slideBody = document.querySelector('section.body');
+          new ScrollMagic.Scene({
+            triggerElement: slideBody
+          })
+            .setPin(slideBody, { pushFollowers: false })
+            .on("update", function (e) {
+              // console.log("Scene entered.", e.currentTarget.scrollOffset(), e.scrollPos);
+              const pos = e.currentTarget.scrollOffset() - e.scrollPos
+              if (pos > -400) {
+                slideBody.classList = 'panel body b02';
+              }
+              if (pos > -300) {
+                slideBody.classList = 'panel body b01';
+              }
+              if (pos > -200) {
+                slideBody.classList = 'panel body b1';
+              }
+              if (pos > -100) {
+                slideBody.classList = 'panel body b2';
+              }
+              if (pos > 0) {
+                slideBody.classList = 'panel body b3';
+              }
+              if (pos > 100) {
+                slideBody.classList = 'panel body b4';
+              }
+              if (pos > 200) {
+                slideBody.classList = 'panel body b5';
+              }
+              if (pos > 300) {
+                slideBody.classList = 'panel body b6';
+              }
+              if (pos > 400) {
+                slideBody.classList = 'panel body b7';
+              }
+              if (pos > 500) {
+                slideBody.classList = 'panel body b8';
+              }
+              if (pos > 600) {
+                slideBody.classList = 'panel body b9';
+              }
+            })
+            // .addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
+
+          const slideTrailer = document.querySelector('section.trailer');
+          new ScrollMagic.Scene({
+            triggerElement: slideTrailer
+          })
+            .setPin(slideTrailer, { pushFollowers: false })
+            .on("update", function (e) {
+
+            })
+            // .addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
+
+          const slideFooter = document.querySelector('section.footer');
+          new ScrollMagic.Scene({
+            triggerElement: slideFooter
+          })
+            .setPin(slideFooter, { pushFollowers: false })
+            .addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
+
+          // create scene for every slide
+          // for (var i = 0; i < slides.length; i++) {
+          //   new ScrollMagic.Scene({
+          //     triggerElement: slides[i]
+          //   })
+          //     .setPin(slides[i], { pushFollowers: false })
+          //     .addIndicators() // add indicators (requires plugin)
+          //     .addTo(controller);
+          // }
+        </script>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
