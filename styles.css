@@ -89,10 +89,10 @@ h3 {
 }
 
 .trailer .video {
-  /* position: absolute; */
-  top: 30%;
-  left: 54%;
-  width: 41%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 450px;
   perspective: 623px;
   transform-style: preserve-3d;
   transform: rotateX(-7deg) rotateY(31deg);

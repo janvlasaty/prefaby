@@ -52,7 +52,7 @@
   <section class="trailer">
     <div class="container h-100">
       <div class="row h-100">
-        <div class="d-flex flex-column align-items-start justify-content-center h-100">
+        <div class="d-flex align-items-center justify-content-center h-100">
           <div class="col-lg-5">
             <h2 class="mb-5">story</h2>
             <p class="">A story from a prefabricated flat building - a symbol of a fullfiled dream of modern living in
@@ -61,6 +61,11 @@
               neighbors. Everything is set on a formic table. A pre-apocalyptic concrete idyll referring to a
               tragical crash in Chernobyl.
             </p>
+          </div>
+          <div class="col-lg-5">
+            <video class="video" controls preload="metadata">
+              <source src="img/trailer.mp4#t=2" type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
@@ -171,7 +176,7 @@
       .on("end leave", (e) => {
         headerContent.classList.add('hidden');
       })
-      .addIndicators() // add indicators (requires plugin)
+      // .addIndicators() // add indicators (requires plugin)
       .addTo(controller);
 
     const slideBody = document.querySelector('section.body');
@@ -216,7 +221,7 @@
           slideBody.classList = 'panel body b9';
         }
       })
-      .addIndicators() // add indicators (requires plugin)
+      // .addIndicators() // add indicators (requires plugin)
       .addTo(controller);
 
     const slideTrailer = document.querySelector('section.trailer');
@@ -227,7 +232,7 @@
       .on("update", function (e) {
 
       })
-      .addIndicators()
+      // .addIndicators()
       // .addIndicators() // add indicators (requires plugin)
       .addTo(controller);
 
@@ -236,7 +241,7 @@
       triggerElement: slideAwards
     })
       .setPin(slideAwards, { pushFollowers: false })
-      .addIndicators()
+      // .addIndicators()
       .addTo(controller);
 
 
@@ -245,7 +250,7 @@
       triggerElement: slideFooter
     })
       .setPin(slideFooter, { pushFollowers: false })
-      .addIndicators()
+      // .addIndicators()
       .addTo(controller);
 
     // create scene for every slide
