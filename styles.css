@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap'); */
 html {
   margin: 0;
   padding: 0;
@@ -21,31 +23,37 @@ section {
   background-color: black !important;
 }
 
+a {
+  color: white;
+}
+
 h1 {
-  font-family: "Tiny5", sans-serif;
+  font-family: "Syne Mono", sans-serif;
   font-size: 2rem !important;
   line-height: 4rem;
   font-weight: 500;
 }
 
 h2 {
-  font-family: "Tiny5", sans-serif;
+  font-family: "Syne Mono", sans-serif;
   font-size: 5rem !important;
   line-height: 4rem;
   font-weight: 700;
 }
  
 p, ul {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Uchen", serif;
+  /* font-family: "Linden Hill"; */
   font-size: 1.3rem;
   line-height: 1.5rem;
   font-weight: 300;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: white;
 }
 
 h3 {
-  font-family: "Tiny5", sans-serif;
+  font-family: "Syne Mono", sans-serif;
   font-size: 2rem !important;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -57,15 +65,8 @@ h3 {
   
 .header-content {
   position: relative;
-  opacity: 0.05;
-  transition-duration: .25s;
-}
-
-.header-content.visible {
   opacity: 1;
-}
-.header-content.hidden {
-  opacity: 0!important;
+  transition-duration: .25s;
 }
 
 
@@ -84,7 +85,7 @@ h3 {
 
 .trailer {
   background-image: url('./img/trailerbg.png') !important;
-  background-size: contain;
+  background-size: cover;
   /* position: relative; */
 }
 
@@ -109,7 +110,7 @@ h3 {
 
 .body {
   background-image: url('./img/shadow_10.png') !important;
-  background-size: contain;
+  background-size: cover;
   transition-duration: .5s;
 }
 
