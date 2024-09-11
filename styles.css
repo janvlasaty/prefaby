@@ -33,16 +33,28 @@ a {
 
 h1 {
   font-family: "Syne Mono", sans-serif;
-  font-size: 2rem !important;
-  line-height: 4rem;
+  font-size: 3rem !important;
+  line-height: 3rem;
   font-weight: 500;
 }
 
 h2 {
   font-family: "Syne Mono", sans-serif;
-  font-size: 5rem !important;
+  font-size: 4rem !important;
   line-height: 4rem;
   font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.5rem;
+  }
+  h2 {
+    font-size: 3rem !important;
+    line-height: 3rem;
+  }
+  
 }
  
 p, ul {
@@ -55,16 +67,19 @@ p, ul {
   /* text-transform: uppercase; */
   color: white;
 }
+@media screen and (max-width: 768px) {
+  p, ul {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  
+}
 
 h3 {
   font-family: "Syne Mono", sans-serif;
   font-size: 2rem !important;
   font-weight: 700;
   margin-bottom: 1rem;
-}
-
-.logo {
-  width: 33vw;
 }
   
 .header-content {
