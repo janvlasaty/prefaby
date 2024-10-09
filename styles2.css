@@ -19,9 +19,11 @@ body {
   font-style: normal;
 }
 section {
+  background-color: black !important;
+}
+.header, .body, .trailer {
   height: 100%;
   width: 100%;
-  background-color: black !important;
 }
 .lead {
   font-weight: 700;
