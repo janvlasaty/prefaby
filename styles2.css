@@ -36,7 +36,7 @@ a {
   color: white;
 }
 
-.footer a {
+.shows a, .footer a {
   color: black;
 }
 
