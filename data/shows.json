@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2019-01-01",
+    "time": "12:00",
+    "title": "Show 1",
+    "description": "Description 1",
+    "link": "https://www.example.com/show1"
+  },
+  {
+    "date": "2019-01-02",
+    "time": "13:00",
+    "title": "Show 2",
+    "description": "Description 2",
+    "link": "https://www.example.com/show2"
+  },
+  {
+    "date": "2019-01-03",
+    "time": "14:00",
+    "title": "Show 3",
+    "description": "Description 3",
+    "link": "https://www.example.com/show3"
+  }
+]

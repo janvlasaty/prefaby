@@ -57,3 +57,22 @@ function handleSecond(pos) {
     slideBody.classList = 'panel body b9';
   }
 }
+
+const ulShows = document.querySelector('#shows');
+const ulShowsLiNone = document.querySelector('li.no-shows');
+fetch('./data/shows.json').then((response) => {
+  return response.json();
+}).then((data) => {
+  if (data.length > 0) {
+    ulShowsLiNone.style.display = 'none';
+  }
+  data.forEach((show) => {
+    const li = document.createElement('li');
+    li.textContent = show.title;
+    ulShows.appendChild(li);
+  })
+}).catch((error) => {
+  const li = document.createElement('li');
+  li.innerHTML = ``;
+  ulShows.appendChild(li);
+})
