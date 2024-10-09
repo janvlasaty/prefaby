@@ -68,13 +68,13 @@ fetch('./data/shows.json').then((response) => {
   }
   data.forEach((show) => {
     const li = document.createElement('li');
-    let textContent = '';
-    textContent += `${show.date} `;
-    textContent += show.time ? `(${show.time}) ` : '';
-    textContent += `${show.title}`;
-    textContent += show.location ? ` @ ${show.location}` : '';
-    textContent += show.url ? ` <a href="${show.url}" target="_blank">[link]</a>` : '';
-    li.textContent = textContent;
+    let html = '';
+    html += `${show.date} `;
+    html += show.time ? `(${show.time}) ` : '';
+    html += `${show.title}`;
+    html += show.location ? ` @ ${show.location}` : '';
+    html += show.url ? ` <a href="${show.url}" target="_blank">[link]</a>` : '';
+    li.innerHTML = html;
     ulShows.appendChild(li);
   })
 }).catch((error) => {
