@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap'); */
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+section {
+  height: 100%;
+  width: 100%;
+  background-color: black !important;
+}
+.lead {
+  font-weight: 700;
+}
+.btn {
+  font-weight: 700;
+}
+
+a {
+  color: white;
+}
+
+.footer a {
+  color: black;
+}
+
+h1 {
+  font-family: "Syne Mono", sans-serif;
+  font-size: 3rem !important;
+  line-height: 3rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Syne Mono", sans-serif;
+  font-size: 4rem !important;
+  line-height: 4rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.5rem;
+  }
+  h2 {
+    font-size: 3rem !important;
+    line-height: 3rem;
+  }
+  
+}
+ 
+p, ul {
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Uchen", serif; */
+  font-family: "Gowun Batang", serif;
+  /* font-family: "Linden Hill"; */
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  p, ul {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  
+}
+
+h3 {
+  font-family: "Syne Mono", sans-serif;
+  font-size: 2rem !important;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+  
+.header-content {
+  position: relative;
+  opacity: 1;
+  transition-duration: .25s;
+}
+
+
+.header {
+  background-image: url('./img/table_light.jpg') !important;
+  background-image: url('./img/table_dark.jpg') !important;
+  background-size: cover;
+  transition-duration: .25s;
+  margin-bottom: 100px;
+}
+
+.header.lightup {
+  background-image: url('./img/table_light.jpg') !important;
+  background-size: cover;
+}
+
+.trailer {
+  background-image: url('./img/trailerbg.png') !important;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.trailer .video {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 450px;
+  perspective: 623px;
+  transform-style: preserve-3d;
+  transform: rotateX(-7deg) rotateY(31deg);
+}
+
+.awards {
+  background-color: black !important;
+}
+
+.footer {
+  background-color: white !important;
+  color: black;
+}
+
+.body {
+  background-image: url('./img/shadow_10.png') !important;
+  background-size: cover;
+  transition-duration: .5s;
+}
+
+.body.b02 {
+  background-image: url('./img/shadow_12.jpeg') !important;
+}
+
+.body.b01 {
+  background-image: url('./img/shadow_11.jpeg') !important;
+}
+
+.body.b1 {
+  background-image: url('./img/shadow_10.png') !important;
+}
+
+.body.b2 {
+  background-image: url('./img/shadow_09.png') !important;
+}
+
+.body.b3 {
+  background-image: url('./img/shadow_08.png') !important;
+}
+
+.body.b4 {
+  background-image: url('./img/shadow_07.png') !important;
+}
+
+.body.b5 {
+  background-image: url('./img/shadow_06.png') !important;
+}
+
+.body.b6 {
+  background-image: url('./img/shadow_05.png') !important;
+}
+
+.body.b7 {
+  background-image: url('./img/shadow_04.png') !important;
+}
+
+.body.b8 {
+  background-image: url('./img/shadow_03.png') !important;
+}
+
+.body.b9 {
+  background-image: url('./img/shadow_02.png') !important;
+}
+
+.footer {
+  background-image: none !important;
+  background-color: white;
+  color: black;
+  background-size: cover;
+}
+.footer p, .footer ul {
+  color: black;
+}
+
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url('./img/shadow_02.png') url('./img/shadow_03.png') url('./img/shadow_04.png') url('./img/shadow_05.png') url('./img/shadow_06.png') url('./img/shadow_07.png') url('./img/shadow_08.png') url('./img/shadow_09.png') url('./img/shadow_10.png');
+}
+.laurelWrapper {
+  position: relative;
+}
+.laurelWrapperBrand {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+.brand {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+}
+.laurel {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+} */
