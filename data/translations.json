@@ -122,5 +122,89 @@
       "en": "Check technical rider",
       "cs": "Zobrazit technický rider"
     }
+  },
+  "technicalRider": {
+    "backToHomepage": {
+      "en": "&larr; back to homepage",
+      "cs": "&larr; zpět na úvodní stránku"
+    },
+    "title": {
+      "en": "technical rider",
+      "cs": "technický rider"
+    },
+    "langSwitch": {
+      "en": "english | <a href=\"#\" onclick=\"switchLanguage()\">česky</a>",
+      "cs": "<a href=\"#\" onclick=\"switchLanguage()\">english</a> | česky"
+    },
+    "contact": {
+      "en": "Contact",
+      "cs": "Kontakty"
+    },
+    "contactPerson": {
+      "en": "Contact person: Magdalena Krumplová",
+      "cs": "Kontaktní osoba:  Magdalena Krumplová"
+    },
+    "email": {
+      "en": "E-mail: <a href=\"mailto:prefaby@gmail.com\">prefaby@gmail.com</a>",
+      "cs": "E-mail: <a href=\"mailto:prefaby@gmail.com\">prefaby@gmail.com</a>"
+    },
+    "phone": {
+      "en": "Phone: +420 730 619 142",
+      "cs": "Mobil: +420 730 619 142"
+    },
+    "showDuration": {
+      "en": "Show duration: 30 min",
+      "cs": "Délka představení: 30 min"
+    },
+    "scenePreparation": {
+      "en": "Scene preparation: 180 min, 30 min technical break after each show",
+      "cs": "Stavba scény: 180 min, po každém představení technická pauza 30 minut"
+    },
+    "sceneDismantling": {
+      "en": "Scene dismantling: 60 min",
+      "cs": "Bourání scény: 60 min"
+    },
+    "requirements": {
+      "en": "Requirements",
+      "cs": "Požadavky"
+    },
+    "requirementsList": [
+      {
+        "en": "Completely darkened room, minimum dimensions 6m x 5m",
+        "cs": "Zcela zatemněnou místnost, minimální rozměry 6m x 5m"
+      },
+      {
+        "en": "Power supply 230V/50Hz",
+        "cs": "Přívod elektrického proudu 230V/50Hz"
+      },
+      {
+        "en": "Extensions (at least 7 sockets)",
+        "cs": "Prodlužky (alespoň 7 zásuvek)"
+      },
+      {
+        "en": "7 chairs for the audience - stable, non-squeaky, without armrests",
+        "cs": "7 židlí pro publikum – stabilní, nevrzající, bez opěr na ruce"
+      },
+      {
+        "en": "2 chairs + table for technician + 1 chair for actor -> total 10 chairs",
+        "cs": "2 židle + stůl pro technika + 1 židli pro herce -> celkem 10 židlí"
+      },
+      {
+        "en": "Technical light for seating the audience (ideally dimmable)",
+        "cs": "technické světlo na usazování publika (ideálně případě stmívatelné)"
+      }
+    ],
+    "ownSoundEquipment": {
+      "en": "We have our own sound equipment.",
+      "cs": "Máme vlastní zvukovou aparaturu."
+    },
+    "trailer": {
+      "en": "Trailer",
+      "cs": "Trailer"
+    },
+    "sceneSketch": {
+      "en": "Scene sketch",
+      "cs": "Nákres scény"
+    } 
   }
 }

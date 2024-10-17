@@ -11,12 +11,16 @@ function displaySelectedLanguage(language) {
     if (!Array.isArray(translation)) {
       el.innerHTML = translation[language];
     } else {
+      console.log("array", translation);
       // add same element to the end of parent node
       const parentNode = el.parentNode;
-      parentNode.innerHTML = "";
-      translation.forEach((t) => {
+      translation.forEach((t, i) => {
         const clone = el.cloneNode(true);
-        delete clone.dataset.translation;
+        if (i === 0) {
+          parentNode.innerHTML = "";
+        } else {
+          delete clone.dataset.translation;
+        }
         clone.innerHTML = t[language];
         parentNode.appendChild(clone);
       })
