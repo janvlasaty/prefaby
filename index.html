@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> -->
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css" integrity="sha512-TPigxKHbPcJHJ7ZGgdi2mjdW9XHsQsnptwE+nOUWkoviYBn0rAAt0A5y3B1WGqIHrKFItdhZRteONANT07IipA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="styles2.css" rel="stylesheet">
 
   <title>PreFABY</title>
@@ -30,21 +30,19 @@
           </div>
           <div class="col-12 mb-5">
             <p class="lead">
-              <span data-lang="en">
+              <span data-translation="header.by">
                 by Dominik Migač and Jakub Maksymov
               </span>
-              <span data-lang="cs">
-                od Dominika Migače a Jakuba Maksymova
-              </span>
             </p>
-            <p>
-              <span data-lang="en">
+            <p id="langSwitcher">
+              <span data-translation="header.langSwitch">
                 english | <a href="#" onclick="switchLanguage()">česky</a>
               </span>
-              <span data-lang="cs">
-                <a href="#" onclick="switchLanguage()">english</a> | česky
-              </span>
             </p>
+          </div>
+          <div class="col-12 text-center text-small">
+            <span data-translation="header.scrollDown">Scroll down for more</span>
+            <br />&darr;
           </div>
         </div>
       </div>
@@ -56,25 +54,16 @@
         <div class="d-flex flex-column align-items-start justify-content-center h-100">
           <div class="col-lg-6">
             <h2 class="mb-5">
-              <span data-lang="en">
+              <span data-translation="about.title">
                 one of a kind metapuppet performance
-              </span>
-              <span data-lang="cs">
-                jedinečné metapuppet představení
               </span>
             </h2>
             <p class="">
-              <span data-lang="en">
+              <span data-translation="about.text">
                 Prefaby is a technological marvel.
                 <br>A precisely deatiled and humbly intimate spectacle.
                 <br>Miniature robotics, 5 channel sound, videomapping.
                 <br>7 audience members. 1 actor.
-              </span>
-              <span data-lang="cs">
-                Prefaby je technologický div.
-                <br>Přesně detailní a skromně intimní spektákl.
-                <br>Miniaturizovaná robotika, 5 kanálový zvuk, videomapping.
-                <br>7 diváků. 1 herec.
               </span>
             </p>
           </div>
@@ -88,28 +77,18 @@
         <div class="row">
           <div class="col-10 col-lg-6">
             <h2 class="mb-5">
-              <span data-lang="en">
+              <span data-translation="story.title">
                 story
-              </span>
-              <span data-lang="cs">
-                příběh
               </span>
             </h2>
             <p class="">
-              <span data-lang="en">
+              <span data-translation="story.text">
                 A&nbsp;story from a&nbsp;prefabricated flat building - a&nbsp;symbol of a&nbsp;fullfiled
                 dream of modern living in the&nbsp;former Eastern Bloc. Brutalistic architecture. 
                 Freely variated motifs of everyday life of 3&nbsp;neighbors. 
                 Everything is set on a&nbsp;formic table. 
                 A pre-apocalyptic concrete idyll referring to a&nbsp;tragical crash in Chernobyl.
               </span>
-              <span data-lang="cs">
-                Příběh z&nbsp;panelákového sídliště - symbol splněného snu o&nbsp;moderním bydlení ve
-                bývalém východním bloku. Brutalistická architektura. Volně variující motivy každodenního života 3&nbsp;sousedů. 
-                Vše je nastaveno na formikovém stole. Předapokalyptický betonový idyl odkazující na
-                tragickou havárii v&nbsp;Černobylu.
-              </span>
-
             </p>
           </div>
           <div class="col-10 col-lg-6 p-2">
@@ -126,18 +105,15 @@
       <div class="row d-flex align-items-center">
         <div class="row">
           <div class="col-12 col-lg-4 d-flex align-items-center">
-            <h2><span data-lang="en">upcoming shows</span>
-              <span data-lang="cs">
-                nadcházející představení
-              </span>
+            <h2>
+              <span data-translation="upcomingShows.title">upcoming shows</span>
             </h2>
           </div>
           <div class="col-12 col-lg-8 d-flex align-items-center">
             <div class="row text-start text-lg-center w-100">
               <ul id="shows" class="list-unstyled my-3">
                 <li class="no-shows">
-                  <span data-lang="en">No shows are currently planned.</span>
-                  <span data-lang="cs">Současně nejsou naplánovány žádné představení.</span>
+                  <span data-translation="upcomingShows.noShows">No shows are currently planned.</span>
                 </li>
               </ul>
             </div>
@@ -151,10 +127,8 @@
       <div class="row d-flex align-items-center">
         <div class="row">
           <div class="col-12 col-lg-4 d-flex align-items-center">
-            <h2><span data-lang="en">awards</span>
-              <span data-lang="cs">
-                ceny
-              </span>
+            <h2>
+              <span data-translation="awards.title">awards</span>
             </h2>
           </div>
           <div class="col-12 col-lg-8">
@@ -167,21 +141,15 @@
                   </div>
                   <p class="mt-2 text-center">
                     <b>
-                      <span data-lang="en">
+                      <span data-translation="awards.award1.name">
                         Award of Divadelní noviny 2020
-                      </span>
-                      <span data-lang="cs">
-                        Cena divadelních novin 2020
                       </span>
                     </b>
                   </p>
                   <p class="small text-center">
-                    <span data-lang="en">
+                    <span data-translation="awards.award1.description">
                       Award of Czech theatre magazine
                       <br>Category puppet theatre
-                    </span>
-                    <span data-lang="cs">
-                      Cena Divadelního časopisu<br>v kategorii loutkové divadlo
                     </span>
                   </p>
                 </div>
@@ -194,22 +162,15 @@
                   </div>
                   <p class="mt-2 text-center">
                     <b>
-                    <span data-lang="en">22nd Golden Sparkle Zlatna
+                    <span data-translation="awards.award2.name">22nd Golden Sparkle Zlatna
                       Iskra, 2020, Kragujevac,
                       Serbia</span>
-                    <span data-lang="cs">
-                      22. Zlatna Iskra, 2020, Kragujevac, Srbsko
-                    </span></b>
                   </p>
                   <p class="small text-center">
-                    <span data-lang="en">
+                    <span  data-translation="awards.award2.description">
                       Special award for an innovative
                     concept
                     <br />Award for acting for Dominik Migač
-                    </span>
-                    <span data-lang="cs">
-                      Speciální cena za inovativní koncept
-                      <br />Cena za herectví pro Dominika Migače
                     </span>
                   </p>
                 </div>
@@ -226,123 +187,68 @@
         <div class="row">
           <div class="col-lg-5">
             <h2 class="mb-5">
-              <span data-lang="en">authors</span>
-              <span data-lang="cs">
-                autoři
-              </span></h2>
+              <span data-translation="authors.title">authors</span>
+            </h2>
             <ul class="list-unstyled">
-              <li>
+              <li data-translation="authors.list">
                 <span data-lang="en">
                   Concept, scene, technical realisation: Dominik Migač
-                </span>
-                <span data-lang="cs">
-                  
                 </span>
               </li>
               <li>
                 <span data-lang="en">
                   Drama: Jakub Maksymov
                 </span>
-                <span data-lang="cs">
-                  Scénář: Jakub Maksymov
-                </span>
               </li>
               <li>
                 <span data-lang="en">
                   Sound: Studio Mr. Wombat
-                </span>
-                <span data-lang="cs">
-                  Zvuk: Studio Mr. Wombat
                 </span>
               </li>
               <li>
                 <span data-lang="en">
                   Creative supervision and masks: Tereza Černá
                 </span>
-                <span data-lang="cs">
-                  Kreativní dohled a masky: Tereza Černá
-                </span>
               </li>
               <li>
                 <span data-lang="en">
                   Costumes: Jana Ševčík
-                </span>
-                <span data-lang="cs">
-                  Kostýmy: Jana Ševčík
                 </span>
               </li>
               <li>
                 <span data-lang="en">
                   Performers: Dominik Migač nebo Jakub Maksymov
                 </span>
-                <span data-lang="cs">
-                  Herci: Dominik Migač nebo Jakub Maksymov
-                </span>
               </li>
               <li>
                 <span data-lang="en">
                   Voices: Štěpán Lustyk, Eva Hacurová, Milan Vedral, Jakub Vaverka
-                </span>
-                <span data-lang="cs">
-                  Hlasy: Štěpán Lustyk, Eva Hacurová, Milan Vedral, Jakub Vaverka
                 </span>
               </li>
             </ul>
           </div>
           <div class="col-lg-5 offset-lg-1">
             <h2 class="mb-5">
-              <span data-lang="en">wanna see?</span>
-              <span data-lang="cs">
-                chcete vidět?
-              </span></h2>
-            <!-- <p>
-              <span data-lang="en">We are currently playing! Check upcoming show or
-                stay connected via Instagram
-                or Facebook.</span>
-              <span data-lang="cs">
-                Hrajeme! Zkontrolujte nadcházející představení nebo zůstaňte v kontaktu přes Instagram nebo
-                Facebook.
-              </span>
-              </p>
-            <button type="button" class="btn btn-dark mb-4">
-              <span data-lang="en">
-                See upcoming shows
-              </span>
-              <span data-lang="cs">
-                Zobrazit nadcházející představení
-              </span>
-            </button> -->
+              <span data-translation="wannaSee.title">wanna see?</span>
+            </h2>
             <p>
-              <span data-lang="en">
+              <span data-translation="wannaSee.producer">
                 Producer: Magdalena Krumplová
                 <br>
                 <a href="mailto:prefaby@gmail.com">
                   prefaby@gmail.com
                 </a>
               </span>
-              <span data-lang="cs">
-                Producent: Magdalena Krumplová
-                <br>
-                <a href="mailto:prefaby@gmail.com">
-                  prefaby@gmail.com
-                </a>
-              </span>
             </p>
             <p>
-              <span data-lang="en">
+              <span data-translation="wannaSee.organizer">
                 Are you organizer, producer or want private show?
-              </span>
-              <span data-lang="cs">
-                Jste organizátor, producent nebo chcete soukromé představení?
               </span>
             </p>
             <a href="technicalrider.html">
               <button type="button" class="btn btn-dark mb-4">
-                <span data-lang="en">
+                <span data-translation="wannaSee.technicalRider">
                   Check technical rider
-                </span>
-                <span data-lang="cs">
-                  Zobrazit technický rider
                 </span>
               </button>
             </a>

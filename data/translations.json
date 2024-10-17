@@ -1,0 +1,126 @@
+{
+  "header": {
+    "by": {
+      "en": "by Dominik Migač and Jakub Maksymov",
+      "cs": "od Dominika Migače a Jakuba Maksymova"
+    },
+    "langSwitch": {
+      "en": "english | <a href=\"#\" onclick=\"switchLanguage()\">česky</a>",
+      "cs": "<a href=\"#\" onclick=\"switchLanguage()\">english</a> | česky"
+    },
+    "scrollDown": {
+      "en": "scroll down for more",
+      "cs": "posuňte dolů"
+    }
+  },
+  "about": {
+    "title": {
+      "en": "one of a kind metapuppet performance",
+      "cs": "jedinečné metapuppet představení"
+    },
+    "text": {
+      "en": "Prefaby is a technological marvel.<br>A precisely deatiled and humbly intimate spectacle.<br>Miniature robotics, 5 channel sound, videomapping.<br>7 audience members. 1 actor.",
+      "cs": "Prefaby je technologický div.<br>Přesně detailní a skromně intimní spektákl.<br>Miniaturizovaná robotika, 5 kanálový zvuk, videomapping.<br>7 diváků. 1 herec."
+    }
+  },
+  "story": {
+    "title": {
+      "en": "story",
+      "cs": "příběh"
+    },
+    "text": {
+      "en": "A story from a prefabricated flat building - a symbol of a fullfiled dream of modern living in the former Eastern Bloc. Brutalistic architecture. Freely variated motifs of everyday life of 3 neighbors. Everything is set on a formic table. A pre-apocalyptic concrete idyll referring to a tragical crash in Chernobyl.",
+      "cs": "Příběh z panelákového sídliště - symbol splněného snu o moderním bydlení ve bývalém východním bloku. Brutalistická architektura. Volně variující motivy každodenního života 3 sousedů. Vše je nastaveno na formikovém stole. Předapokalyptický betonový idyl odkazující na tragickou havárii v Černobylu."
+    }
+  },
+  "upcomingShows": {
+    "title": {
+      "en": "upcoming shows",
+      "cs": "nadcházející představení"
+    },
+    "noShows": {
+      "en": "No shows are currently planned.",
+      "cs": "Současně nejsou naplánovány žádné představení."
+    }
+  },
+  "awards": {
+    "title": {
+      "en": "awards",
+      "cs": "ceny"
+    },
+    "award1": {
+      "name": {
+        "en": "Award of Divadelní noviny<br>2020",
+        "cs": "Cena divadelních novin<br>2020"
+      },
+      "description": {
+        "en": "Award of Czech theatre magazine Category puppet theatre",
+        "cs": "Cena Divadelního časopisu<br>v kategorii loutkové divadlo"
+      }
+    },
+    "award2": {
+      "name": {
+        "en": "22nd Golden Sparkle Zlatna Iskra,<br>2020, Kragujevac, Serbia",
+        "cs": "22. Zlatna Iskra,<br>2020, Kragujevac, Srbsko"
+      },
+      "description": {
+        "en": "Special award for an innovative concept<br>Award for acting for Dominik Migač",
+        "cs": "Speciální cena za inovativní koncept<br>Cena za herectví pro Dominika Migače"
+      }
+    }
+  },
+  "authors": {
+    "title": {
+      "en": "authors",
+      "cs": "autoři"
+    },
+    "list": [
+      {
+        "en": "Concept, scene, technical realisation: Dominik Migač",
+        "cs": "Koncept, scéna, technická realizace: Dominik Migač"
+      },
+      {
+        "en": "Drama: Jakub Maksymov",
+        "cs": "Scénář: Jakub Maksymov"
+      },
+      {
+        "en": "Sound: Studio Mr. Wombat",
+        "cs": "Zvuk: Studio Mr. Wombat"
+      },
+      {
+        "en": "Creative supervision and masks: Tereza Černá",
+        "cs": "Kreativní dohled a masky: Tereza Černá"
+      },
+      {
+        "en": "Costumes: Jana Ševčík",
+        "cs": "Kostýmy: Jana Ševčík"
+      },
+      {
+        "en": "Performers: Dominik Migač nebo Jakub Maksymov",
+        "cs": "Herci: Dominik Migač nebo Jakub Maksymov"
+      },
+      {
+        "en": "Voices: Štěpán Lustyk, Eva Hacurová, Milan Vedral, Jakub Vaverka",
+        "cs": "Hlasy: Štěpán Lustyk, Eva Hacurová, Milan Vedral, Jakub Vaverka"
+      }
+    ]
+  },
+  "wannaSee": {
+    "title": {
+      "en": "wanna see it?",
+      "cs": "chcete to vidět?"
+    },
+    "producer": {
+      "en": "Producer: Magdalena Krumplová <br><a href=\"mailto:prefaby@gmail.com\">prefaby@gmail.com</a>",
+      "cs": "Producent: Magdalena Krumplová <br><a href=\"mailto:prefaby@gmail.com\">prefaby@gmail.com</a>"
+    },
+    "organizer": {
+      "en": "Are you organizer, producer or want private show?",
+      "cs": "Jste organizátor, producent nebo chcete soukromé představení?"
+    },
+    "technicalRider": {
+      "en": "Check technical rider",
+      "cs": "Zobrazit technický rider"
+    }
+  }
+}

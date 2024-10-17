@@ -34,6 +34,7 @@ section {
 
 a {
   color: white;
+  text-decoration: underline!important;
 }
 
 .shows a, .footer a {
