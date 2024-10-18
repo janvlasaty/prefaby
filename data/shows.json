@@ -1,30 +1,22 @@
 [
   {
-    "date": "12/9/2019",
-    "time": "14:00",
-    "title": "Festival 1",
-    "location": "Place 1",
-    "url": "https://www.example.com/show1"
+    "date": "18.10.2024",
+    "time": "13:30, 14:30, 15:30, 16:30, 17:30",
+    "title": "Prague Quadrenial Symposium ",
+    "location": "Vzlet, Prague",
+    "url": ""
   },
   {
-    "date": "12/9/2019",
-    "time": "14:00",
-    "title": "Festival 2",
-    "location": "Place 1",
-    "url": "https://www.example.com/show1"
+    "date": "8., 9.11.2024",
+    "time": "",
+    "title": "UNIDRAM 2024",
+    "location": "Potsdam",
+    "url": ""
   },
   {
-    "date": "12/10/2019",
-    "time": "13:00",
-    "title": "Show 2",
-    "location": "Place 2",
-    "url": "https://www.example.com/show2"
-  },
-  {
-    "date": "12/11/2019",
-    "time": "14:00",
-    "title": "Show 3",
-    "location": "Place 3",
-    "url": "https://www.example.com/show3"
-  }
-]
+    "date": "16.11.2024",
+    "time": "",
+    "title": "",
+    "location": "Klub Letka",
+    "url": ""
+ 
