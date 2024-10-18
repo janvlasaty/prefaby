@@ -105,6 +105,12 @@ h3 {
   background-size: cover;
   transition-duration: .25s;
   margin-bottom: 100px;
+  background-position: center;
+}
+@media screen and (max-width: 768px) {
+  .header {
+  }
+  
 }
 
 .header.lightup {
@@ -140,6 +146,7 @@ h3 {
 .body {
   background-image: url('./img/shadow_10.png') !important;
   background-size: cover;
+  background-position: center;
   transition-duration: .5s;
 }
 
