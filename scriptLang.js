@@ -7,11 +7,9 @@ function displaySelectedLanguage(language) {
   els.forEach((el) => {
     const key = el.getAttribute('data-translation');
     const translation = getNotedTranslation(key);
-    console.log(key, translation);
     if (!Array.isArray(translation)) {
       el.innerHTML = translation[language];
     } else {
-      console.log("array", translation);
       // add same element to the end of parent node
       const parentNode = el.parentNode;
       translation.forEach((t, i) => {
